@@ -4,3 +4,5 @@
 > 2-assembler - Script that genrates the assembly code of a C code and save it in an output file
 > 3-name - Script that compiles a C file and creates an executable named cisfun
 > 4-puts.c - Script that prints a string using puts function and returns 0
+> 5-printf.c - Script that prints exactly a certain string, followed by a new line
+>
