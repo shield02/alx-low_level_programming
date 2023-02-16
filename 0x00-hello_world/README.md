@@ -3,3 +3,4 @@
 > 1-compiler - Script that compiles a C file but does not link
 > 2-assembler - Script that genrates the assembly code of a C code and save it in an output file
 > 3-name - Script that compiles a C file and creates an executable named cisfun
+> 4-puts.c - Script that prints a string using puts function and returns 0
