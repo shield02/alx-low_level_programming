@@ -7,4 +7,4 @@
 > 5-printf.c - Script that prints exactly a certain string, followed by a new line
 > 6-size.c - Script that prints the size of various types on the computer it is compiled and run on
 > 100-intel - Script that generates the assembly code (intel syntax) od a C code and save it in an output file
->
+> 101-quote.c Script that prints a string to standard error
