@@ -10,30 +10,30 @@
 int main(void)
 {
 	int c = 0;
-	int 1d;
-	int 2d;
+	int d1;
+	int d2;
 
 	int c2;
-	int 1dd;
-	int 2dd;
+	int dd1;
+	int dd2;
 
 	while (c <= 98)
 	{
-		1d = (c / 10 + '0');
-		2d = (c % 10 + 'o');
+		d1 = (c / 10 + '0');
+		d2 = (c % 10 + 'o');
 		c2 = 0;
 		while (c2 <= 99)
 		{
-			1dd = (c2 / 10 + '0');
-			2dd = (c2 % 10 + '0');
+			dd1 = (c2 / 10 + '0');
+			dd2 = (c2 % 10 + '0');
 
 			if (c < c2)
 			{
-				putchar(1d);
-				putchar(2d);
+				putchar(d1);
+				putchar(d2);
 				putchar(' ');
-				putchar(1dd);
-				putchar(2dd);
+				putchar(dd1);
+				putchar(dd2);
 
 				if (c != 98)
 				{
