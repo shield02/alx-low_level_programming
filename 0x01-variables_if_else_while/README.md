@@ -10,3 +10,5 @@
 > 8-print_base16.c - Script to print all nubers of base16 in lowercase
 > 9-print_combo.c - Script to print all possible combinations of single-digit numbers
 > 100-print_comb3.c - Script to print all possible different combinations of two digits
+> 101-print_comb4.c - Script to print all possible different combinations of three digits
+>
