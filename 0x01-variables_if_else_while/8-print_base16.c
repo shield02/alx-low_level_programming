@@ -9,7 +9,7 @@ int main(void)
 {
 	char hx;
 
-	for (hx = '0'; hx <= 'f'; hx++)
+	for (hx = '0'; hx <= '9'; hx++)
 	{
 		putchar(hx);
 	}
