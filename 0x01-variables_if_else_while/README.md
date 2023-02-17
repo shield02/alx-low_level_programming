@@ -6,4 +6,6 @@
 > 4-print_alphabt.c - Script that print all alphabets in lowercase except e and q
 > 5-print_number.c - Script to print number of base 10 starting from 0
 > 6-print_numberz.c - Script to print all digit numbers of base 10 starting from 0
-> 7-print-tebahpla.c - Script to print the lowercase alphabets in reverse
+> 7-print_tebahpla.c - Script to print the lowercase alphabets in reverse
+> 8-print_base16.c - Script to print all nubers of base16 in lowercase
+>
