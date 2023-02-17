@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 /**
  * main - main block
  * Description: This will print all possible different
@@ -30,7 +30,6 @@ int main(void)
 
 			c++;
 		}
-
 		d++;
 	}
 
