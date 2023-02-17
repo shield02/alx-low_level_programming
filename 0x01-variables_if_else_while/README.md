@@ -3,4 +3,5 @@
 > 1-last_digit.c - Script to assign a random nuber to a variable each time it is executed and compare the number to 0, 5, 6. Printing different outputs
 > 2-print_alphabet.c - Script that prints the alphabet in lowercase
 > 3-print_alphabets.c - Script that prints alphabets in lowercase than uppercase
+> 4-print_alphabt.c - Script that print all alphabets in lowercase except e and q
 >
