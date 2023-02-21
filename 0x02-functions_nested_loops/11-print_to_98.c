@@ -9,15 +9,15 @@ void print_to_98(int n)
 {
 	while (n < 98)
 	{
-		printf("%i, ", n);
+		_putchar("%i, ", n);
 		n++;
 	}
 	while (n > 98)
 	{
-		printf("%i, ", n);
+		_putchar("%i, ", n);
 		n--;
 	}
 
-	printf("98");
+	_putchar("98");
 	_putchar('\n');
 }
