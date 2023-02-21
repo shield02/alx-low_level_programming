@@ -13,3 +13,4 @@
 > 11-print_to_98 - Script that prints all natural numbers from n to 98
 > 100-times_table.c - Script that prints the n times table statring with 0
 > 101-natural.c - Script to find all multiples 3 or 5 but below 1024 (excluded) and find the sum
+> 102-fibonacci - Script that prints the first 50 Fibonacci numbers starting with 1 and 2
