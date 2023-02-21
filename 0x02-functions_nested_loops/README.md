@@ -7,3 +7,4 @@
 > 5-sign.c - Script that prints the sign of a number
 > 6-abs.c - Script that computes the absolute value of an integer
 > 7-print_last_digit - Script that prints the last digit of a number
+> 8-24_hours.c - Script that prints every munite of the day starting from 00:00 to 23:59
