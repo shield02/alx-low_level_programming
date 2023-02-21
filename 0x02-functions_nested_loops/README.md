@@ -11,3 +11,4 @@
 > 9-times_table.c - Script that prints the 9 times table, starting with 0
 > 10-add.c - Script to add two integer values and return result
 > 11-print_to_98 - Script that prints all natural numbers from n to 98
+> 100-times_table.c - Script that prints the n times table statring with 0
