@@ -13,9 +13,9 @@ void jack_bauer(void)
 	int a = 9;
 
 	hh = 0;
-	while (hh == 2)
+	while (hh <= 2)
 	{
-		if (hh <= 2)
+		if (hh == 2)
 		{
 			a = 3;
 		}
@@ -31,8 +31,8 @@ void jack_bauer(void)
 					_putchar('0' + hh);
 					_putchar('0' + th);
 					_putchar(':');
-					_putchar('0' + tm);
 					_putchar('0' + hm);
+					_putchar('0' + tm);
 					_putchar('\n');
 					tm++;
 				}
