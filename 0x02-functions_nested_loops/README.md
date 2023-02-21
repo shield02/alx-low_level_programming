@@ -5,3 +5,4 @@
 > 3-islower.c - Script that checks for lowercase character
 > 4-isalpha.c - Script that checks if a character is alpha
 > 5-sign.c - Script that prints the sign of a number
+> 6-abs.c - Script that computes the absolute value of an integer
