@@ -10,3 +10,4 @@
 > 8-24_hours.c - Script that prints every munite of the day starting from 00:00 to 23:59
 > 9-times_table.c - Script that prints the 9 times table, starting with 0
 > 10-add.c - Script to add two integer values and return result
+> 11-print_to_98 - Script that prints all natural numbers from n to 98
