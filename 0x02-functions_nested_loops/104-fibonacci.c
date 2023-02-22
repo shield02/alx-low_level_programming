@@ -21,7 +21,7 @@ int main(void)
 	for (i = 1; i < 91; i++)
 	{
 		printf(", %lu", second1 + (second2 / last));
-		printf("%lu", second2 $ last);
+		printf("%lu", second2 % last);
 		second1 = second1 + first1;
 		first1 = second1 - first1;
 		second2 = second2 + first2;
