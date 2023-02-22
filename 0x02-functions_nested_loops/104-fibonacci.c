@@ -18,7 +18,7 @@ int main(void)
 
 	printf("%lu", first);
 
-	for (i = 1, i < 91; i++)
+	for (i = 1; i < 91; i++)
 	{
 		printf(", %lu", second1 + (second2 / last));
 		printf("%lu", second2 $ last);
