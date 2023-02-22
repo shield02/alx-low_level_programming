@@ -20,6 +20,18 @@ int main(void)
 
 	for (i = 1; i < 91; i++)
 	{
+		printf(", %lu", second);
+		second += first;
+		first = second - first;
+	}
+
+	first1 = (first / last);
+	first2 = (first % last);
+	second1 = (second / last);
+	second2 = (second % last);
+
+	for (i = 92; i < 99; i++)
+	{
 		printf(", %lu", second1 + (second2 / last));
 		printf("%lu", second2 % last);
 		second1 = second1 + first1;
