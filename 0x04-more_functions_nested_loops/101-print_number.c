@@ -1,12 +1,13 @@
 #include "main.h"
-#include <stdlib.h>
+
 #include <stdio.h>
+#include <stdlib.h>
 
 int _putchar(char c);
 
 /**
  * print_number - prints an integer
- * @n: int var, number to be printed
+ * @n: int variable, number to be printed
  * Return: void
  */
 
@@ -25,7 +26,7 @@ void print_number(int n)
 	}
 	if (n1 / 10)
 	{
-		print_numbers(n1 / 10);
+		print_number(n1 / 10);
 	}
 	_putchar((n1 % 10) + '0');
 }
