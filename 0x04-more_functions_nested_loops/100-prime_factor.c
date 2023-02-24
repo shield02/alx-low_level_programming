@@ -9,15 +9,15 @@
 int main(void)
 {
 	long int x = 612852475143;
-	long int py;
+	long int pn;
 
-	for (py = 2; py < x; py++)
+	for (pn = 2; pn < x; pn++)
 	{
-		if (x % py == 0)
+		if (x % pn == 0)
 		{
-			x = x / py;
+			x = x / pn;
 		}
 	}
-	printf("%1d\n" py);
+	printf("%1d\n", pn);
 	return (0);
 }
