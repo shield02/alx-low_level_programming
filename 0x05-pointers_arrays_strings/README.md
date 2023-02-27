@@ -6,3 +6,4 @@
 + 3-puts.c - Script that will print to standard output
 + 4-print_rev.c - Script that reverse print a string
 + 5-rev_string.c - Script to reverse a string
++ 6-puts2.c - Script to print alternate characters of a string
