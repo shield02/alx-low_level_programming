@@ -17,10 +17,13 @@ void rev_string(char *s)
 	while (s[i + 1] != '\0')
 		i++;
 
-	for (j = i; i < j / 2 + 1; --j)
+	j = i;
+	i = 0;
+	while (i < j / 2 + 1)
 	{
 		temp = s[i];
-		s[j] = s[i - j];
-		s[i - j] = temp;
+		s[i] = s[j - i];
+		s[j - i] = temp;
+		i++;
 	}
 }
