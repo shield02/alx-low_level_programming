@@ -7,5 +7,6 @@
 + 4-print_rev.c - Script that reverse print a string
 + 5-rev_string.c - Script to reverse a string
 + 6-puts2.c - Script to print alternate characters of a string
-+ 7-puts_half - Script that prints half the length of a string
-+ 8-print_array - Script that prints n elements of an array of integers
++ 7-puts_half.c - Script that prints half the length of a string
++ 8-print_array.c - Script that prints n elements of an array of integers
++ 9-strcpy.c - Script that copies the string pointing to a source directory to a destination directory
