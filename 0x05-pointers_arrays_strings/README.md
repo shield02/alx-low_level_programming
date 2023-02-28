@@ -10,3 +10,5 @@
 + 7-puts_half.c - Script that prints half the length of a string
 + 8-print_array.c - Script that prints n elements of an array of integers
 + 9-strcpy.c - Script that copies the string pointing to a source directory to a destination directory
++ 100-atoi.c - Script that converts a string to an integer
++ 101-keygen.c - Script that generates random valid password
