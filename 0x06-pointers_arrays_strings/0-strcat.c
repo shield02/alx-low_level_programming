@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcat - function that concatenates two strings
+ * i_strcat - function that concatenates two strings
  * @dest: char variable, string will be attaced to it
  * @src: char variable, string that will be appended to dest
  *
@@ -22,8 +22,8 @@ char *_strcat(char *dest, char *src)
 	{
 		a++;
 		dest[i] = src[a];
-		i++
+		i++;
 	}
 
-	return (dest)
+	return (dest);
 }
