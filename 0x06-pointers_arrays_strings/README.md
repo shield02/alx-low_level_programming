@@ -4,3 +4,4 @@
 + 2-strncat.c - Script that copies a string
 + 3-strcmp.c - Script that compares two strings
 + 4-reverse_array.c - Script that reveres an int array
++ 5-string_toupper.c - Script that capitalize a string
