@@ -6,3 +6,4 @@
 + 4-reverse_array.c - Script that reveres an int array
 + 5-string_toupper.c - Script that changes a string to upper letters
 + 6-cap_string.c - Script that capitalize words
++ 7-leet.c - Script that encodes a string to 1337
