@@ -4,7 +4,7 @@
 /**
  * print_buffer - prints buffer
  * @b: buffer
- * @size: size
+ * @size: int variable size
  *
  * Description: This function prints the content of
  * size bytes of the buffer pointed by b
