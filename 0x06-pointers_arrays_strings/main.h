@@ -11,4 +11,5 @@ char *rot13(char *str);
 void print_number(int n);
 int main(void);
 void rev_string(char *n);
-char *infinit_add(char *n1, char *n2, char *r, int size_r);
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+void print_buffer(char *b, int size);
