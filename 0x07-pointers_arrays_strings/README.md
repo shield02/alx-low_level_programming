@@ -8,4 +8,4 @@
 + 5-strstr.c - Script that finds the first occurance of a substring
 + 7-print_chessboard.c - Script prints a chessboard
 + 8-print_diagsums.c - Script that prints sum of the two diagonals of matrix
-
++ 100-set_string.c - String that sets a pointer to a value
