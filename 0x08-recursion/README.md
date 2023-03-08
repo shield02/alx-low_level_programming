@@ -2,4 +2,5 @@
 
 + 0-puts_recursion.c - Script to print strings
 + 1-print_rev_recursion.c - Script to print a string in reverse
++ 2-strlen_recursion.c - Script to prints the length of a string
 
