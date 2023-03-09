@@ -19,21 +19,6 @@ int last_index(char *s)
 }
 
 /**
- * is_palindrome - check if a string is a palindrome
- * @s: char variable
- *
- * Description: This function checks if a string is a palindrome or not
- * Return: 0 or 1
- */
-
-int is_palindrome(char *s)
-{
-	int end = last_index(s);
-
-	return (check(s, 0, end - 1, end % 2));
-}
-
-/**
  * check - checker for the palindrome
  * @s: char variable
  * @start: int variable
@@ -52,4 +37,19 @@ int check(char *s, int start, int end, int pair)
 		return (0);
 	else
 		return (check(s, start + 1, end - 1, pair));
+}
+
+/**
+ * is_palindrome - check if a string is a palindrome
+ * @s: char variable
+ *
+ * Description: This function checks if a string is a palindrome or not
+ * Return: 0 or 1
+ */
+
+int is_palindrome(char *s)
+{
+        int end = last_index(s);
+
+        return (check(s, 0, end - 1, end % 2));
 }
