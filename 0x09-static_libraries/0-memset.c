@@ -5,6 +5,8 @@
  * @s: char variable
  * @b: char variable
  * @n: int variable
+ *
+ * Description: This function sets the memory
  * Return: *s
  */
 
