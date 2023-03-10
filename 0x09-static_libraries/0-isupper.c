@@ -2,10 +2,10 @@
 
 /**
  * _isupper - checks if the value is upper.
- *
  * @c: int variable
  *
- * Return: Always 0.
+ * Description: This function checks if the value is upper.
+ * Return: 0.
  */
 
 
