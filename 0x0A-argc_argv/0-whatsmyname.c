@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * whatsmyname - prints a string
+ * main - prints a string
  * @argc: int variable
  * @argv: char variable
  *
@@ -9,8 +9,7 @@
  * Return: 0
  */
 
-
-int whatsmyname(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	printf("%s\n", argv[argc - 1]);
 	return (0);
