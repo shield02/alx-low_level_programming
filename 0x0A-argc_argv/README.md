@@ -4,4 +4,5 @@
 + 1-args.c - Script that prints the number of arguments used
 + 2-args.c - Script that prints all arugments it recieves
 + 3-mul.c - Script that multiplies two numbers
++ 4-add.c - Script that add positive numbers
 
