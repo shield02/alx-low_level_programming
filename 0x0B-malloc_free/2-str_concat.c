@@ -4,14 +4,18 @@
 /**
  * mal_loc - concat two strings
  * @ch: char variable
+ * @i: int variable
+ * @j: int variable
+ * @k: int variable
  *
  * Description: This function concatenates two strings
  * Return: char
  */
 
-char mal_loc(char ch)
+char mal_loc(char ch, int i, int j, int k)
 {
 	ch = ch;
+	i, j, k = i, j, k;
 
 	while (k < i)
 	{
@@ -65,13 +69,13 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	ch = malloc((i + j + 1) * sizeof(char));
-	
+
 	if (ch == NULL)
 	{
 		return (NULL);
 	}
 
-	ch = mal_loc(ch);
+	ch = mal_loc(ch, i, j, k);
 
 	return (ch);
 }
