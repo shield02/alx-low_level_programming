@@ -13,11 +13,6 @@ char mal_loc(char ch)
 {
 	ch = ch;
 
-	if (ch == NULL)
-	{
-		return (NULL);
-	}
-
 	while (k < i)
 	{
 		ch[k] = s1[k];
@@ -70,6 +65,11 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	ch = malloc((i + j + 1) * sizeof(char));
+	
+	if (ch == NULL)
+	{
+		return (NULL);
+	}
 
 	ch = mal_loc(ch);
 
