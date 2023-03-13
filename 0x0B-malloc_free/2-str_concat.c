@@ -15,7 +15,7 @@
 char mal_loc(char ch, int i, int j, int k)
 {
 	ch = ch;
-	i, j, k = i, j, k;
+	i, j, k;
 
 	while (k < i)
 	{
