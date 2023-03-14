@@ -6,4 +6,5 @@ chars and initilizes it with a specific char
 + 3-alloc_grid.c - Script that returns a pointer to a 2 dimensional array
 + 4-free_grid.c - Script that frees a 2 dimensional grid previously held by alloc_grid
 + 100-argstostr.c - Script that concatenates all the arguments of a program
++ 101-strtow.c - Script that splits a string into words
 
