@@ -23,6 +23,19 @@ int _strlen(char *s)
 }
 
 /**
+ * _putchar - writs character to stdout
+ * @c: The character to print
+ *
+ * Description: This function prints to stdout
+ * Return: On success 1.
+ * On error, -1 is returned and errno is set appropriately
+ */
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
+
+/**
  * _atoi - string to integer
  * @s: char variable
  *
