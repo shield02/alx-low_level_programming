@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include <unist.h>
+#include <unistd.h>
 /**
  * _strlen - find length of a string
  * @s: char variable
