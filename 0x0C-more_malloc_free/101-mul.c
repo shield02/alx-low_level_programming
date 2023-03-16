@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
+
 /**
  * _strlen - find length of a string
  * @s: char variable
@@ -48,6 +49,7 @@ int _atoi(char *s)
 	unsigned int n = 0;
 
 	i = 0;
+
 	while (s[i] && fn)
 	{
 		if (s[i] == '-' && !n)
@@ -60,7 +62,7 @@ int _atoi(char *s)
 		else if (n > 0)
 			fn = 0;
 		i++;
-	};
+	}
 	n *= ne;
 	return (n);
 }
