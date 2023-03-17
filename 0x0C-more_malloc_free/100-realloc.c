@@ -1,8 +1,7 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
- * _realloc - reallocates a memory block
+ * _realloc -  reallocates a memory block
  * @ptr: void variable
  * @old_size: unsigned int variable
  * @new_size: unsigned int variable
@@ -10,32 +9,31 @@
  * Description: This function reallocates a memory block using malloc and free
  * Return: void
  */
-void *_realloc(void *ptr, unisigned int old_size, unsigned int new_size)
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
-	char *ch;
+	char *clone, *relloc;
 	unsigned int i;
 
+	if (ptr != NULL)
+		clone = ptr;
+	else
+	{
+		return (malloc(new_size));
+	}
 	if (new_size == old_size)
 		return (ptr);
-	if (ptr == NULL)
-	{
-		ch = malloc(new_size);
-		if (ch == NULL)
-			return (NULL);
-		return (ch);
-	}
 	if (new_size == 0 && ptr != NULL)
 	{
 		free(ptr);
-		return (NULL);
+		return (0);
 	}
-	ch = malloc(new_size);
-	if (ch == NULL)
-		return (NULL);
-	for (i = 0; i < old_size && i < new_size; i++)
+	relloc = malloc(new_size);
+	if (relloc == NULL)
+		return (0);
+	for (i = 0; i < (old_size || i < new_size); i++)
 	{
-		ch[i] = ((char *)ptr)[i];
-		free(ptr);
+		*(relloc + i) = clone[i];
 	}
-	return (ch);
+	free(ptr);
+	return (relloc);
 }
