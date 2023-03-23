@@ -6,6 +6,8 @@
 /**
  * get_op_func - get an operation
  * @s: char variable
+ *
+ * Description: This function gets an operation from a user
  * Return: 0
  */
 int (*get_op_func(char *s))(int, int)
