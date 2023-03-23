@@ -6,6 +6,8 @@
  * main - entry point
  * @argc: int variable
  * @argv: char variable
+ *
+ * Description: Performs all the operations
  * Return: 0
  */
 int main(int argc, char *argv[])
