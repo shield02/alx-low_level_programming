@@ -8,4 +8,5 @@ the user
 + 3-op_functions.c - Script that performs addition, subtractio, multiplication, division, and 
 modulo operation
 + 3-main.c - Script that performs the main calculation
++ 100-main_opcodes.c - Script that prints opcodes of it own
 
