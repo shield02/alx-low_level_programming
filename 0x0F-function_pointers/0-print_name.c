@@ -6,7 +6,7 @@
  * @f: void function
  *
  * Description: This function prints a name
- * Return: 0
+ * Return: Nothing
  */
 void print_name(char *name, void (*f)(char *))
 {
