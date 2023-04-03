@@ -19,6 +19,7 @@ typedof struct listint_s
 } listint_t;
 
 size_t print_listint(const listint *h);
+size_t listint_len(const listint *h);
 
 
 #endif
