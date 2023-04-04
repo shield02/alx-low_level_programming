@@ -7,6 +7,7 @@
  * @n: int arg
  *
  * Description: This function add a new node at the beginning of a string list
+ * Return: int
  */
 
 listint_t *add_nodeint(listint_t **head, const int n)
