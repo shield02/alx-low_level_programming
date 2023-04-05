@@ -5,4 +5,5 @@
 + 3-add_nodeint_end.c - Script that adds a new node to the end of a list
 + 4-free_listint.c - Script that frees a singly linked list
 + 5-free_listint2.c - Script that frees a singly linked list and sets the head to NULL
++ 6-pop_listint.c - Script that deletes the head node of a singly linked list
 
