@@ -9,4 +9,5 @@
 + 7-get_nodeint.c - Script that finds the index of a given node
 + 8-sum_listint.c - Script that sums all of the data in a list
 + 9-insert_nodeint.c - Script that inserts a new node at a given position
++ 10-delete_nodeint.c - Script that deletes a node at a given index
 
