@@ -11,4 +11,5 @@
 + 9-insert_nodeint.c - Script that inserts a new node at a given position
 + 10-delete_nodeint.c - Script that deletes a node at a given index
 + 100-reverse_listint.c - Script that reverses a linked list
++ 103-find_loop.c - Script that finds the loop in a linked list
 
