@@ -7,4 +7,5 @@
 + 5-free_listint2.c - Script that frees a singly linked list and sets the head to NULL
 + 6-pop_listint.c - Script that deletes the head node of a singly linked list
 + 7-get_nodeint.c - Script that finds the index of a given node
++ 8-sum_listint.c - Script that sums all of the data in a list
 
