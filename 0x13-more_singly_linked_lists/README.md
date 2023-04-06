@@ -12,5 +12,6 @@
 + 10-delete_nodeint.c - Script that deletes a node at a given index
 + 100-reverse_listint.c - Script that reverses a linked list
 + 101-print_listint_safe.c - Script that prints a linked list safely
++ 102-free_listint_safe.c - Script that frees a linked list
 + 103-find_loop.c - Script that finds the loop in a linked list
 
