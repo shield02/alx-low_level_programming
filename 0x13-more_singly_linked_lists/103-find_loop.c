@@ -21,10 +21,10 @@ listint_t *find_listint_loop(listint_t *head)
 		return (NULL);
 	}
 
-	for (; s && y && x->next; x = x)
+	while (x && y && y->next)
 	{
 		x = x->next;
-		x = x->next;
+		y = y->next;
 		y = x->next;
 		if (x == y)
 		{
