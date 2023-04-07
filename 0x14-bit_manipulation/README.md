@@ -3,4 +3,5 @@
 + 1-print_binary.c - Script that prints binary representation of a number
 + 2-get_bit.c - Script that gets the value of a bit at a given index
 + 3-set_bit.c - Script that sets the value of a bit to 1 at a given index
++ 4-clear_bit.c - Script that sets the value of a bit to 0 at a given index
 
