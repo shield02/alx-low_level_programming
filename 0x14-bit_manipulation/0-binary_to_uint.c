@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * binary_to_unit - converts a binary number
+ * binary_to_uint - converts a binary number
  * @b: char variable
  *
  * Description: This function takes a binary as a string
