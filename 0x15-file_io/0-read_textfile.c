@@ -14,6 +14,9 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	char *buffer;
 	int rf, wf, fhandle;
 
+	if (filename == NULL)
+		return (0);
+
 	fhandle = open(filename, O_RDONLY);
 	if (fhandle < 0)
 		return (0);
