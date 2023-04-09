@@ -84,7 +84,7 @@ void print_class(unsigned char *e_ident)
  */
 void print_data(unsigned char *e_ident)
 {
-	printf("  Data:                              ");
+	printf("  Data:                               ");
 	if (e_ident[EI_DATA] == ELFDATANONE)
 		printf("none\n");
 	else if (e_ident[EI_DATA] == ELFDATA2LSB)
@@ -105,7 +105,7 @@ void print_data(unsigned char *e_ident)
  */
 void print_version(unsigned char *e_ident)
 {
-	printf("  Version:                              %d",
+	printf("  Version:                           %d",
 		e_ident[EI_VERSION]);
 	switch (e_ident[EI_VERSION])
 	{
@@ -128,7 +128,7 @@ void print_version(unsigned char *e_ident)
  */
 void print_osabi(unsigned char *e_ident)
 {
-	printf("  OS/ABI:                              ");
+	printf("  OS/ABI:                             ");
 	if (e_ident[EI_OSABI] == ELFOSABI_NONE)
 		printf("UNIX - System V\n");
 	else if (e_ident[EI_OSABI] == ELFOSABI_HPUX)
@@ -163,7 +163,7 @@ void print_osabi(unsigned char *e_ident)
  */
 void print_abi(unsigned char *e_ident)
 {
-	printf("  ABI Version:                                  %d\n",
+	printf("  ABI Version:                     %d\n",
 		e_ident[EI_ABIVERSION]);
 }
 
@@ -180,7 +180,7 @@ void print_type(unsigned int e_type, unsigned char *e_ident)
 {
 	if (e_ident[EI_DATA] == ELFDATA2MSB)
 		e_type >>= 8;
-	printf("  Type:                                ");
+	printf("  Type:                               ");
 	if (e_type == ET_NONE)
 		printf("NONE (None)\n");
 	else if (e_type == ET_REL)
@@ -206,7 +206,7 @@ void print_type(unsigned int e_type, unsigned char *e_ident)
  */
 void print_entry(unsigned long int e_entry, unsigned char *e_ident)
 {
-	printf("  Entry point address:                   ");
+	printf("  Entry point address:                ");
 	if (e_ident[EI_DATA] == ELFDATA2MSB)
 	{
 		e_entry = ((e_entry << 8) & 0xFF00FF00) |
