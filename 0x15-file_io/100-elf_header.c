@@ -62,7 +62,7 @@ void print_magic(unsigned char *e_ident)
  */
 void print_class(unsigned char *e_ident)
 {
-	printf("  Class:                                  ");
+	printf("  Class:                              ");
 
 	if (e_ident[EI_CLASS] == ELFCLASSNONE)
 		printf("none\n");
@@ -84,7 +84,7 @@ void print_class(unsigned char *e_ident)
  */
 void print_data(unsigned char *e_ident)
 {
-	printf("  Data:                                  ");
+	printf("  Data:                              ");
 	if (e_ident[EI_DATA] == ELFDATANONE)
 		printf("none\n");
 	else if (e_ident[EI_DATA] == ELFDATA2LSB)
@@ -105,7 +105,7 @@ void print_data(unsigned char *e_ident)
  */
 void print_version(unsigned char *e_ident)
 {
-	printf("  Version:                                  %d",
+	printf("  Version:                              %d",
 		e_ident[EI_VERSION]);
 	switch (e_ident[EI_VERSION])
 	{
@@ -128,7 +128,7 @@ void print_version(unsigned char *e_ident)
  */
 void print_osabi(unsigned char *e_ident)
 {
-	printf("  OS/ABI:                                  ");
+	printf("  OS/ABI:                              ");
 	if (e_ident[EI_OSABI] == ELFOSABI_NONE)
 		printf("UNIX - System V\n");
 	else if (e_ident[EI_OSABI] == ELFOSABI_HPUX)
