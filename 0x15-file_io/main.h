@@ -16,6 +16,17 @@ void arg_error(void);
 void read_error(char *file);
 void write_error(char *file, int handle);
 void close_error(int handle);
+void file_error(char *file);
 
+void is_elf(unsigned char *e_ident, char *file);
+void print_magic(unsigned char *e_ident);
+void print_class(unsigned char *e_ident);
+void print_data(unsigned char *e_ident);
+void print_version(unsigned char *e_ident);
+void print_osabi(unsigned char *e_ident);
+void print_abi(unsigned char *e_ident);
+void print_type(unsigned int e_type, unsigned char *e_ident);
+void print_entry(unsigned long int e_entry, unsigned char *e_ident);
 
 #endif
+
