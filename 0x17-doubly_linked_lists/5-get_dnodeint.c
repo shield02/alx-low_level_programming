@@ -7,7 +7,7 @@
  *
  * Description: This function returns the nth node of the dlistint
  * linked list
- * Returns: index or NULL
+ * Return: index or NULL
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
