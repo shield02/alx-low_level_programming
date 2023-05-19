@@ -7,4 +7,4 @@
 > 5-get_dnodeint - Script that gets the nth node of a dlistint linked list
 > 6-sum_dlistint - Script that sums all the data of a dlistint linked list
 > 7-insert_dnodeint - Script that inserts a new node at a given position
-
+> 8-delete_dnodeint - Script that deletes a node at a given index 
