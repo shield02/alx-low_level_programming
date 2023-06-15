@@ -6,3 +6,4 @@
 * 3-hash_table_set - Code to add an element to the hash table
 * 4-hash_table_get - Code to retrieve a value associated with a key from a hash table
 * 5-hash_table_print - Code to print a hash table
+* 6-hash_table_delete - Code to delete a node from a hash table
