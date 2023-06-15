@@ -5,7 +5,7 @@
  * @ht: const pointer - hash table
  * @key: const char - search key
  *
- * Description: This function that retrieves a value 
+ * Description: This function that retrieves a value
  * associated with a key
  * Return: value or NULL
  */
